@@ -68,7 +68,7 @@ public class MenuPrincipal {
                         break;
                     case 4:
                         System.out.println("La lista completa ordenada es:");
-                        lecturaArchivo.llenarPQAeropuertos();
+                       // lecturaArchivo.llenarPQAeropuertos();
                         lecturaArchivo.lecturaOrdenada(pq);
                         pressEnterParaMenu();
                         clearScreen();
